@@ -1,0 +1,90 @@
+#experiencia li{
+  font-size: 1.3rem;
+  color: rgb(242, 245, 255);
+}
+#experiencia h1 {
+  font-size: 2.5em;
+  color: rgb(242, 245, 255);
+}
+#experiencia h2{
+  font-size: 2em;
+  color: rgb(242, 245, 255);
+}
+#experiencia h3{
+  font-size: 1.5em;
+  color: rgb(242, 245, 255);
+  font-style: italic;
+}
+
+  #experiencia .experiencia-encabezado{
+  padding: 10px 0 10px 0;
+  border-bottom: 1px rgb(242, 245, 255) solid;
+  }
+
+
+#experiencia .experiencia-descripcion li::marker {
+  color: rgb(0, 145, 255);
+}
+
+#experiencia .experiencia-botones ul {
+  list-style: none;
+  display: flex;
+  padding: 20px 0 20px 0;
+  margin: 0;
+  overflow-y: auto;
+}
+
+#experiencia .experiencia-botones li {
+  display: block;
+  padding: 5px;
+}
+
+#experiencia .experiencia-botones button {
+  width: max-content;
+  display: flex;
+  background-color: rgba(0, 0, 0);
+  padding: 5px;
+  font-weight: 600;
+  border: 2px solid rgb(0, 145, 255);
+  color: rgb(0,145,255);
+  border-radius: 7px;
+  transition: background-color 0.5s ease-in-out, filter 0.5s ease-in-out , color 0.5s ease-in-out;
+}
+
+#experiencia .experiencia-botones button:hover {
+  filter: drop-shadow(0 0 5px rgb(0,145,255));
+}
+
+#experiencia .experiencia-botones button.seleccionado{
+  background-color: rgb(0, 145, 255);
+  padding: 5px;
+  border: 2px solid rgb(0, 145, 255);
+  color: rgb(0, 0, 0);
+}
+
+#experiencia .experiencia-descripcion {
+  padding: 20px 0 20px 0
+}
+
+#experiencia .experiencia-titulo-fecha{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#experiencia .experiencia-lista{
+  margin-top: 15px
+}
+#experiencia .experiencia-lista li{
+  font-size: 1.5rem;
+}
+
+
+@media (min-width:992px) {
+
+
+  #experiencia .experiencia-botones button {width: 300px;}
+  #experiencia .experiencia-contenido .experiencia-descripcion{ margin-left: 1rem}
+
+}

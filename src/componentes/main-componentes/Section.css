@@ -1,0 +1,46 @@
+/* section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 50px;
+} */
+
+section{
+  width: 100%;
+}
+
+b {
+  font-weight: 600;
+}
+
+section div#sobremi,
+section div#habilidades,
+section div#experiencia,
+section div#contacto,
+section div#proyectos {
+  scroll-margin-top: 10px; /* Ajusta este valor según sea necesario */
+}
+
+section:has(> div#inicio) {
+  display: flex;
+  align-items: center;
+  background-image: url("/background/bk-2.jpg"),
+    linear-gradient(#000000, #0063afa8);
+  background-blend-mode: overlay; /* Aplica el modo de mezcla "overlay" para superponer el color */
+  background-position: center center; /* Centra la imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen al 50% del contenedor */
+  height: 100vh;
+}
+
+@media (min-width: 992px) {
+  section div#sobremi h1,
+  section div#habilidades h1,
+  section div#experiencia h1,
+  section div#experiencia h2,
+  section div#contacto h1,
+  section div#proyectos h1 {
+    text-align: start;
+  }
+}

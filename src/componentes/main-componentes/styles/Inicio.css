@@ -1,0 +1,42 @@
+#inicio h1
+{
+    font-size: 4.5em;
+    color: rgb(255, 255, 255);
+}
+
+#inicio p{
+    color:#f2f5ff ;
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#inicio b{
+    color:rgb(0, 145, 255) ;
+}
+
+div.containerButton  button{
+    background-color: rgb(0, 99, 175);
+    border: 1px solid rgb(0, 99, 175);
+    border-radius: 2px;
+    padding: 0;
+    margin: 0;
+    transition: filter 0.5s ease-in-out
+}
+
+div.containerButton button:hover {
+  filter: drop-shadow(0 0 10px rgb(0, 99, 175));
+}
+
+
+div.containerButton a,
+div.containerButton a:visited{
+    display: block;
+    width: 100%;
+    padding: 10px;
+  color: rgb(255, 255, 255);
+    font-size: 1.5em;
+      font-weight: 400;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}

@@ -1,0 +1,75 @@
+header {
+  background-color: rgba(0, 0, 15, 0.975);
+  padding: 0;
+  box-shadow: 0px 1px 40px -5px rgb(0, 99, 175);
+}
+  header .logo-contenedor h1{
+    font-weight: 700;
+    font-size: 1.8em;
+  }
+    header .logo-contenedor h2{
+    font-weight: 700;
+    font-size: 1em;
+  }
+
+div.offCanvasHeader {
+  background-color: rgb(0, 0, 15);
+}
+
+
+header a.navbar-brand ,
+div.offCanvasHeader a.navbar-brand{
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease-in-out, text-shadow 0.5s ease-in-out !important;
+}
+
+header a.navbar-brand:hover ,
+div.offCanvasHeader a.navbar-brand:hover{
+  color: rgb(0, 145, 255);
+}
+div.offcanvas-body a {
+  color: rgb(242, 245, 255) !important;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+@media (min-width: 992px) {
+  header .logo-contenedor h1{
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+    header .logo-contenedor h2{
+    font-weight: 700;
+    font-size: 0.7em;
+  }
+
+  div.offcanvas-body a {
+    color: rgb(242, 245, 255);
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+}
+
+button.toggleOffCanvas {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255) !important;
+  border-radius: 5px;
+  /* color: rgb(255, 0, 0) !important; */
+  transition: border-color 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+button.toggleOffCanvas svg{
+  padding: 5px;
+  transition:fill 0.5s ease-in-out;
+}
+
+button.toggleOffCanvas:hover {
+  border-color:rgb(0, 145, 255) !important;
+  filter: drop-shadow(0 0 5px rgb(0, 145, 255));
+}
+
+button.toggleOffCanvas svg:hover{
+  fill: rgb(0, 145, 255);
+}

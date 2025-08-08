@@ -1,0 +1,54 @@
+#contacto h1 {
+  font-size: 2.5em;
+  color: #f2f5ff;
+}
+
+#contacto {
+  color: #f2f5ff;
+}
+
+#contacto p {
+  font-size: 1.6rem;
+}
+
+#contacto b {
+  color: rgb(0, 145, 255);
+}
+#contacto .contacto-encabezado {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px #ffffff solid;
+}
+
+.contacto-contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contacto .contacto-enlaces {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 5px 0;
+}
+
+#contacto .contacto-enlaces > a {
+  width: 80px;
+  height: 80px;
+  display: block;
+  background-color: rgba(0, 99, 175, 0.493);
+  border-radius: 40px;
+  padding: 6px;
+  margin: 0 10px 0 0;
+  transition: filter 0.5s ease-in-out;
+}
+#contacto .contacto-enlaces img#gh {
+  filter: brightness(10);
+}
+#contacto .contacto-enlaces > a:hover {
+  filter: drop-shadow(0 0 10px rgb(0, 99, 175));
+}
+
+#contacto .contacto-enlaces img {
+  width: 100%;
+  padding: 8px;
+}

@@ -1,0 +1,154 @@
+#proyectos p,
+#proyectos a,
+#proyectos li {
+  font-size: 1.5rem;
+}
+#proyectos h1 {
+  font-size: 2.5rem;
+  color: rgb(242, 245, 255);
+}
+
+#proyectos h2 {
+  font-size: 2rem;
+  color: rgb(242, 245, 255);
+}
+
+#proyectos p {
+  color: rgb(242, 245, 255);
+}
+.proyectos-img {
+  display: flex;
+  background-color: rgb(7, 7, 7);
+  border-radius: 5px;
+  border: 1px solid rgb(92, 92, 92);
+}
+
+.proyectos-img img {
+  width: 100%;
+}
+
+.iconTec {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 0 5px;
+  filter: drop-shadow(0 0 1px black);
+}
+
+/**Este era para Unity, pero lo borre
+* 23/7/2025
+*/
+.iconTec.unity-icon {
+  filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+}
+
+#proyectos .proyectos-encabezado {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px rgb(242, 245, 255) solid;
+}
+
+#proyectos .proyectos-botones ul {
+  list-style: none;
+  display: flex;
+  padding: 20px 0 20px 0;
+  margin: 0;
+  overflow-y: auto;
+}
+
+#proyectos .proyectos-botones li {
+  display: block;
+  padding: 5px;
+}
+
+#proyectos .proyectos-botones button {
+  width: max-content;
+  display: flex;
+  background-color: rgba(0, 0, 0);
+  padding: 5px;
+  font-weight: 600;
+  border: 2px solid rgb(0, 145, 255);
+  color: rgb(0, 145, 255);
+  border-radius: 7px;
+  transition: background-color 0.5s ease-in-out, filter 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+}
+
+#proyectos .proyectos-botones button:hover {
+  filter: drop-shadow(0 0 5px rgb(0, 145, 255));
+}
+
+#proyectos .proyectos-botones button.seleccionado {
+  background-color: rgb(0, 145, 255);
+  padding: 5px;
+  border: 2px solid rgb(0, 145, 255);
+  color: rgb(0, 0, 0);
+}
+
+#proyectos .proyectos-titulo {
+  padding: 20px 0 20px 0;
+}
+
+#proyectos .proyectos-contenido b {
+  color: rgb(0, 145, 255);
+}
+
+#proyectos .proyectos-contenido a {
+  font-size: 1em;
+  color: rgb(0, 145, 255);
+  font-weight: 800;
+  transition: text-shadow 0.5s ease-in-out;
+}
+
+#proyectos .proyectos-contenido a:hover {
+  text-shadow: 0 0 15px rgb(0, 145, 255);
+}
+
+#proyectos .proyectos-enlaces {
+  display: flex;
+  justify-content: start;
+  margin: 5px 0 5px 0;
+}
+
+#proyectos .proyectos-enlaces > a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-color: rgb(0, 99, 175);
+  border-radius: 4px;
+  padding: 2px;
+  margin: 0 10px 0 0;
+  transition: filter 0.5s ease-in-out;
+}
+
+#proyectos .proyectos-enlaces > a:hover {
+  filter: drop-shadow(0 0 10px rgb(0, 99, 175));
+}
+
+#proyectos .proyectos-enlaces img {
+  width: 100%;
+  filter: brightness(10);
+  padding: 4px;
+}
+
+@media (min-width: 992px) {
+  .iconTec {
+    width: 32px;
+    height: 28px;
+  }
+  #proyectos .proyectos-botones {
+    padding-top: 15px;
+  }
+  /*te quiero mucho medidas absolutas <3*/
+  #proyectos .proyectos-botones ul {
+    padding: 0;
+    overflow-y: visible; /*Para "desactivar" el overflow-y y no se note ese contenedor invisible cuando hovereamos los botones de la lista de proyectos.*/
+  }
+  #proyectos .proyectos-contenido .proyectos-descripcion {
+    margin-left: 1rem;
+  }
+
+  #proyectos .proyectos-botones button {
+    width: 300px;
+  }
+}

@@ -1,0 +1,9 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  main h1,
+  main h2,
+  main h3 {margin: 0}
