@@ -19,7 +19,7 @@ const experienciaList = [
     id: 1,
     titulo: 'Trabajo autónomo',
     subtitulo: 'Aplicaciones de reparto',
-    fechaToString: 'Septiembre 2020 - Actualidad',
+    fechaToString: 'Octubre 2020 - Actualidad',
     descripcion: [
       'Realizo tareas de reparto en la Ciudad de Buenos Aires y el municipio de Vicente López.',
       'Desarrolle la habilidad para gestionar, planificar y organizar mi trabajo, para cumplir con mis objetivos semanales.',
@@ -30,7 +30,7 @@ const experienciaList = [
     id: 2,
     titulo: 'Ejecutivo de Telemarketing ',
     subtitulo: 'Dyktel S.A.',
-    fechaToString: 'Marzo 2017 - Septiembre 2020',
+    fechaToString: 'Marzo 2017 - Octubre 2020',
     descripcion: [
       'Contactaba clientes para ofrecer los servicios de tarjetas de crédito del Banco Santander Río.',
       'Me adapte progresivamente con el tiempo, mejorando mis números de ventas, posicionándome entre los cinco mejores vendedores de la empresa.',
