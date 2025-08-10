@@ -15,7 +15,7 @@ function Inicio ({ id }) {
                 Soy un <b>desarrollador web</b>  especializado en Javascript creando aplicaciones Front end y Back end, <b>gestionando eficazmente</b> mis proyectos y con <b>conocimientos sólidos</b> utilizando diferentes lenguajes de programación y herramientas de desarrollo.
                 <br />
                 <br />
-                Actualmente estoy en <b>busqueda de trabajo</b>, para forjar mi perfil profesional como <b>desarrollo de Software</b>.
+                Actualmente estoy en <b>búsqueda de trabajo</b>, para forjar mi perfil profesional como <b>desarrollo de Software</b>.
               </p>
             </div>
             <div className='row mt-5'>

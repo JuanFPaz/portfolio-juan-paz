@@ -7,10 +7,8 @@ import css from '/icons/css-3.svg'
 import js from '/icons/js.svg'
 import express from '/icons/express.svg'
 import react from '/icons/react.svg'
-import maven from '/icons/maven.svg'
 import vite from '/icons/vite.svg'
 import bootstrap from '/icons/bootstrap.svg'
-import figma from '/icons/figma.svg'
 import node from '/icons/node.svg'
 import java from '/icons/java.svg'
 import notion from '/icons/notion.svg'
@@ -18,10 +16,7 @@ import trello from '/icons/trello.svg'
 import git from '/icons/git.svg'
 import github from '/icons/github.svg'
 import vscode from '/icons/vs-code.svg'
-import netbeans from '/icons/apache-netbeans.svg'
-import cloudflare from '/icons/cloudflare.svg'
-import unity from '/icons/unity.svg'
-import csharp from '/icons/CSharp.svg'
+
 import './Section.css'
 import './styles/Skills.css'
 
@@ -49,14 +44,14 @@ const arrayDeImagenes = [
   },
   {
     nombre: 'JavaScript',
-    info: 'Lenguaje de Programacion.',
+    info: 'Lenguaje de Programación.',
     url: js,
     alt: 'Logo JavaScript',
     id: self.crypto.randomUUID()
   },
   {
     nombre: 'React',
-    info: 'Libreria de Javascript.',
+    info: 'Librería de Javascript.',
     url: react,
     alt: 'Logo React',
     id: self.crypto.randomUUID()
@@ -70,7 +65,7 @@ const arrayDeImagenes = [
   },
   {
     nombre: 'Java',
-    info: 'Lenguaje de Programacion.',
+    info: 'Lenguaje de Programación.',
     url: java,
     alt: 'Logo Java',
     id: self.crypto.randomUUID()
@@ -93,35 +88,35 @@ const arrayDeImagenesDos = [{
 },
 {
   nombre: 'Notion',
-  info: 'Herramienta de Gestion de Tareas.',
+  info: 'Herramienta de Gestión de Tareas.',
   url: notion,
   alt: 'Logo Notion',
   id: self.crypto.randomUUID()
 },
 {
   nombre: 'Trello',
-  info: 'Herramienta de Gestion de Tareas.',
+  info: 'Herramienta de Gestión de Tareas.',
   url: trello,
   alt: 'Logo Trello',
   id: self.crypto.randomUUID()
 },
 {
   nombre: 'Git',
-  info: 'Sistema de Gestion de Versiones.',
+  info: 'Sistema de Gestión de Versiones.',
   url: git,
   alt: 'Logo Git',
   id: self.crypto.randomUUID()
 },
 {
   nombre: 'GitHub',
-  info: 'Plataforma de almacenamiento de proyectos.',
+  info: 'Plataforma de Almacenamiento de Proyectos.',
   url: github,
   alt: 'Logo GitHub',
   id: self.crypto.randomUUID()
 },
 {
   nombre: 'VS Code',
-  info: 'Editor de Codigo.',
+  info: 'Editor de Código.',
   url: vscode,
   alt: 'Logo Visual Studio Code',
   id: self.crypto.randomUUID()
@@ -135,7 +130,7 @@ const softSkillsText = [
   },
   {
     id: 1,
-    text: 'Empatia'
+    text: 'Empatía'
   },
 
   {
@@ -159,11 +154,11 @@ const softSkillsTextDos = [
   },
   {
     id: 5,
-    text: 'Comunicacion'
+    text: 'Comunicación'
   },
   {
     id: 6,
-    text: 'Resolucion de Problemas'
+    text: 'Resolución  de Problemas'
   },
   {
     id: 7,
@@ -171,7 +166,7 @@ const softSkillsTextDos = [
   },
   {
     id: 8,
-    text: 'Gestion de Proyectos'
+    text: 'Gestión de Proyectos'
   }
 ]
 
@@ -220,7 +215,7 @@ function HardSkills () {
     <div className='techHabilidades-contenedor'>
       <div className='skills-titulo'>
         <h2>
-          Habilidades Tecnicas
+          Habilidades Técnicas
         </h2>
       </div>
       <div className='skills-list'>

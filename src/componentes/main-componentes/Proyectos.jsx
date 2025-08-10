@@ -56,11 +56,6 @@ const proyectosContenido = [
     titulo: 'React Footballito',
     repositorio: 'https://github.com/JuanFPaz/react-footballito',
     repoTitle: 'JuanFPaz/React-Footballito',
-    // url: 'https://www.figma.com/proto/o4lS9FkHAHoImlcbQuWQl1/Maqueta-de-React-Footballito?node-id=0-1&t=U4jttj3mTXMLHjrE-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
-    urlTitle: 'Figma | Prototipo de React Footballito',
-    tecUno: 'React - Javascript - Vite',
-    tecDos:
-        'VS Code - Figma - Git - Github - Notion',
     html: `
     <p><b>React Footballito</b> es una aplicacion en <b>desarrollo</b> creada <b>React y Javascript.</b>. Esta proyecto visualiza los datos de diferentes ligas y copas de fútbol a nivel clubes y selecciones, inspirada en <a href='https://promiedos.com.ar' target='blank'>promiedos.com.ar</a>.</p>
     `,
@@ -73,15 +68,9 @@ const proyectosContenido = [
   {
     id: 1,
     background: apiFootballito,
-    figDesc: 'Miniatura del archivo index.js del proyecto',
     titulo: 'API Footballito',
     repositorio: 'https://github.com/JuanFPaz/API-Football',
     repoTitle: 'JuanFPaz/API-Footballito',
-    url: '',
-    urlTitle: '',
-    tecUno: 'Node.js - Express - Javascript',
-    tecDos:
-        'VS Code - Rest Client - JSON - Git - Github - Notion',
     html: `
         <p><b>API Footballito</b> es una aplicacion <b>Back end</b> en desarrollo con  <b>Node.js y Express</b>, que obtiene, procesa y almacena los datos de diferentes ligas y copas de la <a target='blank' href='https://api-sports.io/documentation/football/v3'>API Sports</a>, para luego <b>facilitar</b> el trabajo en el Front End, enviando los datos solicitados.</p>
         <p>Para desarrollar esta aplicacion, utilice los conocimientos aprendidos de diferentes fuentes como la <a target='blank' href='https://expressjs.com/'>documentacon oficial de Express</a>, videos tutoriales sobre <a target='blank' href='https://www.youtube.com/watch?v=yB4n_K7dZV8&list=PLUofhDIg_38qm2oPOV-IRTTEKyrVBBaU7'>Node.js</a>, y sobre todo mi <b>pensamiento logico</b> a la hora de crear logica de la aplicacion.</p>`
@@ -89,15 +78,11 @@ const proyectosContenido = [
   {
     id: 2,
     background: musica,
-    figDesc: 'Vista previa del Reproductor de musica en movil.',
-    titulo: 'Reproductor de musica',
+    titulo: 'Reproductor de música',
     repositorio: 'https://github.com/JuanFPaz/reproductor-de-musica',
     repoTitle: 'JuanFPaz/Reproductor-de-musica',
     url: 'https://musica.jpaz.ar',
     urlTitle: 'musica.jpaz.ar',
-    tecUno: 'Javascript - Vite',
-    tecDos:
-        'VS Code - Git - Github - Notion',
     html: `
         <p><b>Reproductor de música</b> es una aplicación <b>personal</b> desarrollada con <b>JavaScript</b> y configurada con <b>Vite</b>. La creé como una alternativa a las plataformas de <b>streaming</b> para reducir el consumo de la bateria de mi movil mientras realizo mis <b>jornadas laborales</b>.</p>
         <p>Aunque el estilo de la aplicacion es muy simple, <b>destaco</b> la idea inicial de reutilizar la logica de un reproductor de musica que aprendí en el <a target='blank' href='https://hektorprofe.net/'>curso de <b>Unity</b> y <b>C#</b></a>, adaptarlo a un entorno diferente como el navegador con <b>Javascript</b>.</p>
@@ -108,14 +93,10 @@ const proyectosContenido = [
     id: 3,
     background: nasa,
     titulo: 'Space Oddity',
-    figDesc: 'Vista previa de Spaceoddity.jpaz.ar',
     repositorio: 'https://github.com/JuanFPaz/space-oddity',
     repoTitle: 'JuanFPaz/Space-Oddity',
     url: 'https://spaceoddity.jpaz.ar',
     urlTitle: 'spaceoddity.jpaz.ar',
-    tecUno: 'Javascript - Vite',
-    tecDos:
-        'VS Code - Bootstrap 5 - Rest Client - Git - Github - Notion',
     html: `
         <p><b>Space Oddity</b> es una aplicación <b>frontend</b> desarrollada con <b>JavaScript</b> y configurada con <b>Vite</b>. Esta aplicación obtiene imágenes y videos desde 1996 hasta la fecha actual de la <a target='blank' href='https://api.nasa.gov/'>API APOD</a> (Astronomic Picture of the Day) de la <b>NASA</b>.</p>
         <p>Implementar la lógica para obtener los datos de la API fue <b>sencillo</b> gracias a la clara documentación proporcionada por la NASA. <b>El verdadero reto</b> fue diseñar un estilo propio para la aplicación. Con la <b>ayuda y feedback</b> de colegas experimentados, pude adaptar mis necesidades para mejorar el diseño.</p>
@@ -129,10 +110,6 @@ const proyectosContenido = [
     figDesc: 'Vista previa del Sistema Vacacional.',
     repositorio: 'https://github.com/JuanFPaz/Sistema-Vacacional',
     repoTitle: 'JuanFPaz/Sistema-Vacacional',
-    url: null,
-    urlTitle: null,
-    tecUno: 'Java - Maven',
-    tecDos: 'Apache Neatbeans - Git - Github - Notion',
     html: `
       <p><b>Sistema Vacacional</b> es una aplicacion de <b>escritorio</b> desarrollada con <b>Java</b> y configurada con <b>Maven</b>. Este <b>proyecto integra</b> lo aprendido en el <a target='blank' href='https://www.youtube.com/watch?v=L1oMLsiMusQ'>curso de Java</a> en mis inicios como programador.</p>
       <p>El objetivo de esta aplicacion es realizar el calculo de las vacaciones de un empleado, en base a su antigüedad y su puesto en la empresa. Pero lo que <b>destaco</b> de este proyecto, son los <b>conceptos tecnicos</b> y <b>basicos</b> de la programacion, que me permitieron <b>adaptarme</b> más rapido a nuevos lenguajes como <b>Javascript</b>, entre otras cosas.</p>
@@ -142,13 +119,8 @@ const proyectosContenido = [
     id: 5,
     background: jumpingGuy,
     titulo: 'Jumping Guy',
-    figDesc: 'Vista previa de Jumping Guy',
     repositorio: 'https://github.com/JuanFPaz/Jumping-Guy',
     repoTitle: 'JuanFPaz/Jumping-Guy',
-    url: '',
-    urlTitle: '',
-    tecUno: 'Unity - C#',
-    tecDos: 'VS Code - Git - Github - Notion',
     html: `
       <p><b>Jumping Guy</b> es un <b>videojuego 2D</b> desarrollado en <b>Unity Engine</b> y <b>C#</b>. Este <b>proyecto integrada</b> lo aprendido en el <a target='blank' href='https://hektorprofe.net/'>curso de Unity</a>.</p>
       <p>La jugabilidad es similar al juego del <b>Dino Chrome</b>, el personaje principal debe esquivar la mayor cantidad de obstaculos posibles. Lo que <b>destaco</b> de este proyecto, son los <b>conceptos tecnicos</b> aprendidos sobre el desarrollo de videojuegos, a configurar un escenario, creacion y movimiento de personajes, sobre fisicas 2D y la creacion de scripts con <b>C#</b>, entre otras cosas más.</p>      `

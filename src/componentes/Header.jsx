@@ -44,7 +44,7 @@ function Header () {
                       <Nav.Link href='#proyectos'>Proyectos</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link href='#sobremi'>Sobre Mi</Nav.Link>
+                      <Nav.Link href='#sobremi'>Sobre mí</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link href='#experiencia'>Experiencia</Nav.Link>

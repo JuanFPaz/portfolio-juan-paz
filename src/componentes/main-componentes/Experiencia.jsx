@@ -10,9 +10,9 @@ const experienciaList = [
     subtitulo: 'Portfolio jpaz.ar',
     fechaToString: 'Octubre 2023 - Actualidad',
     descripcion: [
-      'Desarrolle mi Portfolio utilizando React y Javascript, configure mi dominio web personalizado.',
-      'Adquirí la habilidad para gestionar mis proyectos implementando metodologías de trabajo como SCRUM.',
-      'Incluyo el desarrollo de mi Portfolio porque es una representación de mis conocimientos adquiridos en estos años.'
+      'Desarrolle mi Portfolio utilizando Javascript y React.',
+      'Adquirí la habilidad para gestionar mis proyectos utilizando metodologías de trabajo como SCRUM.',
+      'Incluyó al desarrollo de mi portfolio porque es una representación de mis conocimientos adquiridos en estos años.'
     ]
   },
   {
@@ -21,7 +21,7 @@ const experienciaList = [
     subtitulo: 'Aplicaciones de reparto',
     fechaToString: 'Octubre 2020 - Actualidad',
     descripcion: [
-      'Realizo tareas de reparto en la Ciudad de Buenos Aires y el municipio de Vicente López.',
+      'Realizó tareas de reparto en la Ciudad de Buenos Aires y el municipio de Vicente López.',
       'Desarrolle la habilidad para gestionar, planificar y organizar mi trabajo, para cumplir con mis objetivos semanales.',
       'Capaz de adaptar mis objetivos y solucionar problemas en situaciones imprevistas en un entorno de trabajo dinámico.'
     ]
@@ -32,9 +32,9 @@ const experienciaList = [
     subtitulo: 'Dyktel S.A.',
     fechaToString: 'Marzo 2017 - Octubre 2020',
     descripcion: [
-      'Contactaba clientes para ofrecer los servicios de tarjetas de crédito del Banco Santander Río.',
+      'Contactaba potenciales clientes para ofrecer los servicios de tarjetas de crédito del Banco Santander Río.',
       'Me adapte progresivamente con el tiempo, mejorando mis números de ventas, posicionándome entre los cinco mejores vendedores de la empresa.',
-      'Implemente una eficaz gestión de datos utilizando Excel, para gestionar la información de clientes interesados que noaplicaban y posteriormente poder concretar las ventas'
+      'Implemente una eficaz gestión de datos utilizando Excel, para gestionar la información de clientes interesados que no aplicaban y posteriormente poder concretar las ventas'
     ]
   }
 ]
