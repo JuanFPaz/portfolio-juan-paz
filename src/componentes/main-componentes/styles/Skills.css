@@ -58,5 +58,11 @@
 }
 
 #habilidades img {
-  width: 10%;
+  width: 45px;
+}
+
+@media (min-width: 992px) {
+#habilidades img {
+  width: 50px;
+}
 }

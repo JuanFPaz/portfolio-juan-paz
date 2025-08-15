@@ -180,14 +180,14 @@ function SoftSkills () {
       </div>
       <div className='skills-list'>
         <div className='row'>
-          <div className='col-lg-6'>
+          <div className='col-6'>
             {softSkillsText.map(({ id, text }) => (
               <div className='skills-items' key={id}>
                 <span>{text}</span>
               </div>
             ))}
           </div>
-          <div className='col-lg-6'>
+          <div className='col-6'>
             {softSkillsTextDos.map(({ id, text }) => (
               <div className='skills-items' key={id}>
                 <span>{text}</span>
