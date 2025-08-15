@@ -20,6 +20,12 @@ function FormContacto ({ onData, onError, onLoading }) {
         setFlag(false)
         onData(data)
         onLoading(false)
+        handleFormData({
+          nombre: '',
+          correo: '',
+          asunto: '',
+          mensaje: ''
+        })
       }, (err) => {
         setFlag(false)
         onError(err)
@@ -28,7 +34,9 @@ function FormContacto ({ onData, onError, onLoading }) {
       )
     }
   }, [flag])
-
+  const handleFormData = (_formData) => {
+    setFormData(_formData)
+  }
   const handleSubmit = (event) => {
     event.preventDefault()
     const form = event.currentTarget
@@ -61,6 +69,7 @@ function FormContacto ({ onData, onError, onLoading }) {
           onChange={(e) => {
             handleChange({ ...formData, nombre: e.target.value })
           }}
+          value={formData.nombre}
           type='text'
         />
       </Form.Group>
@@ -74,6 +83,7 @@ function FormContacto ({ onData, onError, onLoading }) {
           onChange={(e) => {
             handleChange({ ...formData, correo: e.target.value })
           }}
+          value={formData.correo}
           type='email'
         />
       </Form.Group>
@@ -84,6 +94,7 @@ function FormContacto ({ onData, onError, onLoading }) {
           onChange={(e) => {
             handleChange({ ...formData, asunto: e.target.value })
           }}
+          value={formData.asunto}
           type='text'
         />
       </Form.Group>
@@ -95,6 +106,7 @@ function FormContacto ({ onData, onError, onLoading }) {
           onChange={(e) => {
             handleChange({ ...formData, mensaje: e.target.value })
           }}
+          value={formData.mensaje}
           as='textarea'
           rows={9}
         />

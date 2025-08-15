@@ -74,6 +74,7 @@
     background-color: var(--bs-success-border-subtle);
     color: var(--bs-success-text-emphasis);
     font-size: 1.3rem;
+    font-weight: 400;
 }
 
 #contacto .danger{
@@ -82,6 +83,7 @@
     background-color: var(--bs-danger);
     color: var(--bs-danger-border-subtle);
     font-size: 1.3rem;
+    font-weight: 400;
 }
 
 @media (min-width:768px) {
