@@ -43,7 +43,7 @@ function Contacto ({ id }) {
         </div>
         <div className='container-fluid'>
           <div className='row'>
-            <div className='col-12'>
+            <div className='col-12 mt-3'>
               <p>
                 <b>¡Gracias por haber visitado mi Portfolio!</b> Espero que haya
                 sido de tu agrado y que hayas encontrado interesante el
