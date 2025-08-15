@@ -1,8 +1,13 @@
+/* eslint-disable import/no-absolute-path */
 import Alert from 'react-bootstrap/Alert'
 import Spinner from 'react-bootstrap/Spinner'
 import './styles/Contacto.css'
 import { useState } from 'react'
 import FormContacto from './contacto-componentes/FormContacto'
+import ln from '/icons/linkedin.svg'
+import gh from '/icons/github.svg'
+import ws from '/icons/whatsapp.svg'
+import ds from '/icons/discord.svg'
 
 function Contacto ({ id }) {
   const [data, setData] = useState(null)
@@ -50,7 +55,9 @@ function Contacto ({ id }) {
             <div className='col-12 col-md-6'>
               <div className='contacto-saludo-formulario mt-3'>
                 <p>
-                  Si deseas <b>contactarte conmigo</b>, completa el siguiente formulario, ingresando tu <b>nombre completo</b>, <b>correo electrónico</b> y el <b>motivo</b> del mensaje.
+                  Si deseas <b>contactarte conmigo</b>, completa el siguiente
+                  formulario, ingresando tu <b>nombre completo</b>,{' '}
+                  <b>correo electrónico</b> y el <b>motivo</b> del mensaje.
                 </p>
               </div>
               <div className='contacto-formulario'>
@@ -87,31 +94,41 @@ function Contacto ({ id }) {
             <div className='col-12 col-md-6'>
               <div className='contacto-alternativo mt-3'>
                 <p>
-                  También te dejo otros <b>enlaces</b>, para que me puedas seguir en <b>Linkedin</b> o en <b>Github</b>, o si deseas tener un contacto directo conmigo a través de <b>Whatsapp</b> o en <b>Discord</b>.
+                  También te dejo otros <b>enlaces</b>, para que me puedas
+                  seguir en <b>Linkedin</b> o en <b>Github</b>, o si deseas
+                  tener un contacto directo conmigo a través de <b>Whatsapp</b>{' '}
+                  o en <b>Discord</b>.
                 </p>
               </div>
               <div className='contacto-enlaces mt-5'>
                 <a href='https://www.linkedin.com/in/jpaz94/' target='blank'>
-                  <img
-                    src='https://jpaz.ar/icons/linkedin.svg'
-                    alt='Link a perfil de Linkedin Juan Paz.'
-                  />
+                  <img src={ln} alt='Link a perfil de Linkedin Juan Paz.' />
                 </a>
                 <a href='https://github.com/JuanFPaz' target='blank'>
                   <img
                     id='gh'
-                    src='https://jpaz.ar/icons/github.svg'
+                    src={gh}
                     alt='Link a perfil de Github Juan Paz.'
                   />
                 </a>
                 <a
-                  href='mailto:jpaz.dev94@gmail.com'
+                  href='https://wa.me/1128650700?text=¡Hola Juan Paz!'
                   target='blank'
                   rel='noreferrer'
                 >
                   <img
-                    src='https://jpaz.ar/icons/gmail.svg'
-                    alt='Link a Correo electronico jpaz.dev94@gmail.com'
+                    src={ws}
+                    alt='Link a chat de Juan Paz en Whatsapp.'
+                  />
+                </a>
+                <a
+                  href='https://discordapp.com/users/422214971565277184'
+                  target='blank'
+                  rel='noreferrer'
+                >
+                  <img
+                    src={ds}
+                    alt='Link a perfil de Juan Paz en Discord.'
                   />
                 </a>
               </div>

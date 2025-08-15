@@ -83,3 +83,11 @@
     color: var(--bs-danger-border-subtle);
     font-size: 1.3rem;
 }
+
+@media (min-width:768px) {
+#contacto .contacto-enlaces > a {
+  width: 80px;
+  height: 80px;
+    padding: 6px;
+}
+}
