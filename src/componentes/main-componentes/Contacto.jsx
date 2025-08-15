@@ -112,7 +112,7 @@ function Contacto ({ id }) {
                   />
                 </a>
                 <a
-                  href='https://wa.me/1128650700?text=¡Hola Juan Paz!'
+                  href='https://wa.me/5491128650700?text=¡Hola Juan Paz!'
                   target='blank'
                   rel='noreferrer'
                 >

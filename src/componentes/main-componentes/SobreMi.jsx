@@ -14,10 +14,15 @@ function SobreMi ({ id }) {
         <div className='row'>
           <div className='col-12 col-md-8'>
             <div className='sobreMi-main'>
+              <p>Soy de la Ciudad de Buenos Aires, tengo 30 años, soy <b>trabajador autónomo</b> y <b>desarrollador web</b> en mis tiempos libres. Me <b>defino</b> como una persona empática, colaborativa y adaptable a nuevos desafíos.</p>
+              <p><b>Mi camino tecnico</b> comenzo en el 2019 explorando Java y Unity como autodidacta. Luego me <b>especialicé</b> en JavaScript mediante el curso <b>Argentina Programa</b>, desarrollando aplicaciones con React, Node y creando <b>soluciones eficientes</b> con código limpio y escalable.</p>
+              <p>Hoy <b>busco</b> integrar un equipo de trabajado donde pueda <b>aportar</b> mis conocimientos, <b>resolver</b> desafíos técnicos y <b>contribuir</b> a proyectos innovadores.</p>
+            </div>
+            {/* <div className='sobreMi-main'>
               <p>Soy de la Ciudad de Buenos Aires, Argentina. Tengo 30 años, soy <b>trabajador autónomo</b> en aplicaciones de reparto y <b>desarrollador web</b> en mis tiempos libres. Me defino como una persona <b>empática</b>, me gusta <b>ayudar</b> a las personas y soy capaz de <b>adaptarme</b> a los nuevos desafíos que se me presenten.</p>
               <p><b>Me interesé</b> por el desarrollo de aplicaciones en 2019 como <b>autodidacta</b> dando mis primeros pasos en la programación con Java y explorando el desarrollo de videojuegos con Unity. Más tarde, <b>me inscribí</b> en Argentina Programa, donde <b>reforcé</b> mis conocimientos con nuevas tecnologías como Javascript, React, Node, Git, entre otras.</p>
               <p>Actualmente <b>busco</b> forjar mi <b>perfil profesional</b> como desarrollador, <b>aportando</b> mis conocimientos en un grupo de trabajo, <b>colaborar</b> para resolver todo tipo de problemas y seguir <b>aprendiendo</b> para mejorar como desarollador de software.</p>
-            </div>
+            </div> */}
           </div>
           <div className='col-12 col-md-4'>
             <div className='sobreMi-aside'>

@@ -10,20 +10,20 @@ const experienciaList = [
     subtitulo: 'Portfolio jpaz.ar',
     fechaToString: 'Octubre 2023 - Actualidad',
     descripcion: [
-      'Desarrolle mi Portfolio utilizando Javascript y React.',
-      'Adquirí la habilidad para gestionar mis proyectos utilizando metodologías de trabajo como SCRUM.',
-      'Incluyó al desarrollo de mi portfolio porque es una representación de mis conocimientos adquiridos en estos años.'
+      'Desarrollo de proyectos personales enfocados en lógica, código reutilizable y despliegue en dominio propio.',
+      'Implementación de metodologías ágiles, para la planificación de mis proyectos personales.',
+      'Creación de soluciones técnicas mediante la investigación autónoma y documentación oficiales.'
     ]
   },
   {
     id: 1,
-    titulo: 'Trabajo autónomo',
-    subtitulo: 'Aplicaciones de reparto',
+    titulo: 'Aplicaciones de reparto',
+    subtitulo: 'Trabajo autónomo',
     fechaToString: 'Octubre 2020 - Actualidad',
     descripcion: [
-      'Realizó tareas de reparto en la Ciudad de Buenos Aires y el municipio de Vicente López.',
-      'Desarrolle la habilidad para gestionar, planificar y organizar mi trabajo, para cumplir con mis objetivos semanales.',
-      'Capaz de adaptar mis objetivos y solucionar problemas en situaciones imprevistas en un entorno de trabajo dinámico.'
+      'Repartos en CABA y Vicente López.',
+      'Desarrollo de habilidades de gestión, planificación y organización para cumplir objetivos semanales.',
+      'Adaptación a entornos dinámicos y resolución de problemas imprevistos.'
     ]
   },
   {
@@ -32,9 +32,9 @@ const experienciaList = [
     subtitulo: 'Dyktel S.A.',
     fechaToString: 'Marzo 2017 - Octubre 2020',
     descripcion: [
-      'Contactaba potenciales clientes para ofrecer los servicios de tarjetas de crédito del Banco Santander Río.',
-      'Me adapte progresivamente con el tiempo, mejorando mis números de ventas, posicionándome entre los cinco mejores vendedores de la empresa.',
-      'Implemente una eficaz gestión de datos utilizando Excel, para gestionar la información de clientes interesados que no aplicaban y posteriormente poder concretar las ventas'
+      'Contacto con clientes para venta de tarjetas del Banco Santander Río.',
+      'Implementación de sistema de gestión de datos para leads no concretados.',
+      'Mejora progresiva en ventas, posicionándome entre los 5 mejores vendedores.'
     ]
   }
 ]
@@ -72,7 +72,7 @@ function Experiencia ({ id }) {
             <div className='experiencia-lista'>
               <ul>
                 {exp.descripcion.map((desc, idx) => (
-                  <li key={idx}>{desc}</li>
+                  <li className='mb-3' key={idx}>{desc}</li>
                 ))}
               </ul>
             </div>

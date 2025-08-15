@@ -10,13 +10,9 @@ function Inicio ({ id }) {
         <div id={id} className='container-lg'>
           <div className='container-fluid'>
             <div className='row'>
-              <h1>Hola, soy Juan Paz.</h1>
-              <p>
-                Soy un <b>desarrollador web</b>  especializado en Javascript creando aplicaciones Front end y Back end, <b>gestionando eficazmente</b> mis proyectos y con <b>conocimientos sólidos</b> utilizando diferentes lenguajes de programación y herramientas de desarrollo.
-                <br />
-                <br />
-                Actualmente estoy en <b>búsqueda de trabajo</b>, para forjar mi perfil profesional como <b>desarrollo de Software</b>.
-              </p>
+              <h1>Hola, soy Juan Paz, <b>desarrollador web</b>.</h1>
+              <p className='mt-3'>Especializado en <b>Javascript</b>, creando <b>soluciones</b> técnicas con código limpio, escalable y buenas prácticas, mediante la investigacion y aprendizaje continuo.</p>
+              <p> Busco <b>unirme</b> a un equipo donde pueda <b>aportar</b> mis conocimientos sólidos y <b>crecer</b> profesionalmente.</p>
             </div>
             <div className='row mt-5'>
               <div className='containerButton  d-flex justify-content-center'>
