@@ -1,20 +1,24 @@
 #habilidades h1 {
   font-size: 2.5rem;
-  color: rgb(242, 245, 255);}
+  color: rgb(242, 245, 255);
+}
 
 #habilidades h2 {
   font-size: 2rem;
-  color: rgb(242, 245, 255);}
+  color: rgb(242, 245, 255);
+}
 
-#habilidades li{
+#habilidades li {
   font-size: 1.6rem;
   font-weight: 400;
-  color: rgb(242, 245, 255);}
+  color: rgb(242, 245, 255);
+}
 
-#habilidades span{
+#habilidades span {
   font-size: 1.6rem;
   font-weight: 400;
-  color: rgb(242, 245, 255);}
+  color: rgb(242, 245, 255);
+}
 
 #habilidades .skills-encabezado {
   padding: 10px 0 10px 0;
@@ -32,37 +36,42 @@
     flex-direction: column;
 } */
 
-#habilidades  .skills-items {
+#habilidades .skills-items {
   display: flex;
   justify-content: flex-start;
-    background: rgb(14 39 77);
+  background: rgb(14 39 77);
   border: 1px rgb(24, 67, 131) solid;
   border-radius: 7px;
   padding: 12px;
   margin-bottom: 15px;
 }
 
-#habilidades .techHabilidades-contenedor .skills-items ul{
+#habilidades .techHabilidades-contenedor .skills-items ul {
   list-style: none;
   margin: 0;
 }
 
-#habilidades .techHabilidades-contenedor .skills-items li.descItem{
+#habilidades .techHabilidades-contenedor .skills-items li.descItem {
   font-size: 1.3rem;
-  color: rgb(130, 130, 130) ;
+  color: rgb(130, 130, 130);
 }
 
-#habilidades .techHabilidades-contenedor .skills-items ul{
+#habilidades .techHabilidades-contenedor .skills-items ul {
   list-style: none;
   margin: 0;
 }
 
 #habilidades img {
-  width: 45px;
+  width: 40px;
+}
+@media (min-width: 768px) {
+  #habilidades img {
+    width: 45px;
+  }
 }
 
 @media (min-width: 992px) {
-#habilidades img {
-  width: 50px;
-}
+  #habilidades img {
+    width: 50px;
+  }
 }
