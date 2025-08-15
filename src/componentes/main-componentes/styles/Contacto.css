@@ -3,12 +3,19 @@
   color: #f2f5ff;
 }
 
-#contacto {
+#contacto label,
+#contacto p{
   color: #f2f5ff;
 }
 
+#contacto label,
+#contacto button,
 #contacto p {
   font-size: 1.6rem;
+}
+
+#contacto button{
+  width: 100%;
 }
 
 #contacto b {
@@ -32,12 +39,12 @@
 }
 
 #contacto .contacto-enlaces > a {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   display: block;
   background-color: rgba(0, 99, 175, 0.493);
   border-radius: 40px;
-  padding: 6px;
+  padding: 3px;
   margin: 0 10px 0 0;
   transition: filter 0.5s ease-in-out;
 }
@@ -50,5 +57,29 @@
 
 #contacto .contacto-enlaces img {
   width: 100%;
-  padding: 8px;
+  padding: 8px; 
+}
+
+#contacto input,
+#contacto textarea{
+  font-size: 1.2rem;
+    color: #ffffff;
+    border: 2px solid rgb(0, 145, 255);;
+    background-color:  rgb(14 39 77);;
+}
+
+#contacto .success{
+    border-color: var(--bs-success);
+    border-width: 2px;
+    background-color: var(--bs-success-border-subtle);
+    color: var(--bs-success-text-emphasis);
+    font-size: 1.3rem;
+}
+
+#contacto .danger{
+    border-color: var(--bs-alert-color);
+    border-width: 2px;
+    background-color: var(--bs-danger);
+    color: var(--bs-danger-border-subtle);
+    font-size: 1.3rem;
 }

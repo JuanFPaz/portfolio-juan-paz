@@ -195,13 +195,6 @@ function SoftSkills () {
             ))}
           </div>
         </div>
-        {/* <ul>
-          {softSkillsText.map(({ id, text }) => (
-            <li key={id}>
-              {text}
-            </li>
-          ))}
-        </ul> */}
       </div>
     </div>
   )
